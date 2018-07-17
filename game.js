@@ -97,16 +97,32 @@ function clickBreadUp() {
 
 function clickCheese() {
   console.log("fired");
+
+  sprite3 = game.add.sprite(300, 96, 'cheese');
+  game.physics.enable( sprite3, Phaser.Physics.ARCADE);
+  sprite3.body.collideWorldBounds = true;
 }
 
 function clickLettuce() {
   console.log("fired");
+
+  sprite4 = game.add.sprite(300, 96, 'lettuce');
+  game.physics.enable( sprite4, Phaser.Physics.ARCADE);
+  sprite4.body.collideWorldBounds = true;
 }
 
 function clickTomato() {
   console.log("fired");
+
+  sprite5 = game.add.sprite(300, 96, 'tomato');
+  game.physics.enable( sprite5, Phaser.Physics.ARCADE);
+  sprite5.body.collideWorldBounds = true;
 }
 
 function clickHam() {
   console.log("fired");
+
+  sprite6 = game.add.sprite(300, 96, 'meat');
+  game.physics.enable( sprite6, Phaser.Physics.ARCADE);
+  sprite6.body.collideWorldBounds = true;
 }
